@@ -11,6 +11,9 @@ do
     Console.WriteLine(@$"
 =====================================
         MENU DE AÇÕES
+
+    O celular está: {(Smartphone.Ligado ? "ligado" : "desligado")}
+
 =====================================
 
     1. Ligar celular
